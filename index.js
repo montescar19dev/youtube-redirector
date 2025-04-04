@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  const youtubeLink = 'https://www.youtube.com/shorts/BMvTjYL3Y_s'; // Cambia esto si quieres
+  const youtubeLink = 'https://www.youtube.com/watch?v=BMvTjYL3Y_s'; // Cambia esto si quieres
   res.redirect(302, youtubeLink);
 });
 
