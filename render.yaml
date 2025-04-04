@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: youtube-redirector
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
